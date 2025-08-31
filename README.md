@@ -1,5 +1,6 @@
 # Scikit-P4: P4 Metric Calculation for Python
 [![License](https://img.shields.io/badge/license-BSD%203--Clause-blue.svg)](LICENSE)
+[![PyPI version](https://img.shields.io/pypi/v/scikit-p4.svg)](https://pypi.org/project/scikit-p4/)
 
 Scikit-P4 is a Python library for calculating the P4 metric [1][2] across binary, multiclass, and multilabel classification tasks. Its API closely follows that of Scikit-learn’s metrics (e.g., `f1_score`).
 
