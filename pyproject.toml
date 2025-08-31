@@ -1,0 +1,39 @@
+[tool.poetry]
+name = "scikit-p4"
+version = "0.1.0"
+description = "P4 metric calculation library compatible with scikit-learn"
+authors = ["Mikolaj Sitarz <sitarz@refaba.com>"]
+readme = "README.md"
+license = "BSD-3-Clause"
+homepage = "https://github.com/mikolaj1024/scikit-p4"
+repository = "https://github.com/mikolaj1024/scikit-p4"
+keywords = ["metrics", "classification", "p4", "scikit-learn"]
+classifiers = [
+  "Programming Language :: Python :: 3",
+  "License :: OSI Approved :: BSD License",
+  "Operating System :: OS Independent",
+]
+
+packages = [{ include = "skp4", from = "src" }]
+
+[tool.poetry.dependencies]
+python = ">=3.11"
+numpy = "*"
+scikit-learn = ">=1.7.1,<2.0"
+
+[tool.poetry.group.dev.dependencies]
+pytest = "^8.4.1"
+ipykernel = "^6.29.5"
+ruff = "^0.12.4"
+
+[tool.pytest.ini_options]
+filterwarnings = [
+  "ignore::UserWarning",
+]
+
+[tool.ruff]
+line-length = 120
+
+[build-system]
+requires = ["poetry-core>=2.0.0,<3.0.0"]
+build-backend = "poetry.core.masonry.api"

@@ -1,0 +1,106 @@
+# -------------------------------
+# Python bytecode / cache
+# -------------------------------
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Compiled extensions
+*.so
+*.pyd
+*.dll
+
+# -------------------------------
+# Packaging / build artifacts
+# -------------------------------
+.Python
+build/
+dist/
+downloads/
+eggs/
+.eggs/
+sdist/
+wheels/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+pip-wheel-metadata/
+
+# PEP 582
+__pypackages__/
+
+# -------------------------------
+# Poetry / environments
+# -------------------------------
+# Keep poetry.lock in VCS (do NOT ignore it).
+# Ignore local virtualenvs and env files.
+.venv/
+venv/
+.env
+.env.*
+# pyenv
+.python-version
+
+# -------------------------------
+# Testing / coverage
+# -------------------------------
+.pytest_cache/
+.coverage
+.coverage.*
+htmlcov/
+coverage.xml
+nosetests.xml
+pytestdebug.log
+.tox/
+.nox/
+.cache/
+
+# -------------------------------
+# Type checkers / linters
+# -------------------------------
+.mypy_cache/
+.pyre/
+.pytype/
+.ruff_cache/
+
+# -------------------------------
+# Jupyter / IPython
+# -------------------------------
+.ipynb_checkpoints/
+profile_default/
+ipython_config.py
+
+# -------------------------------
+# Docs (Sphinx / MkDocs)
+# -------------------------------
+docs/_build/
+site/
+
+# -------------------------------
+# Editors / IDEs
+# -------------------------------
+*~
+.vscode/
+*.code-workspace
+.idea/
+*.iml
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+# OS cruft
+.DS_Store
+Thumbs.db
+.Trashes
+
+# -------------------------------
+# Logs / temp
+# -------------------------------
+*.log
+*.tmp
+*.pid
+tmp/
+temp/
