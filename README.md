@@ -13,7 +13,7 @@ pip install scikit-p4
 ## Binary Case
 Example for a binary classification problem.
 ```python
-from skp4.metrics import p4_score
+from skp4 import p4_score
 y_true = [0, 0, 0, 0, 1, 1, 1, 1, 0, 0]
 y_pred = [0, 1, 0, 0, 1, 1, 1, 0, 1, 0]
 p4_score(y_true, y_pred)
@@ -26,7 +26,7 @@ np.float64(0.6956521739130435)
 ## Multiclass Case
 Example with multiple classes.
 ```python
-from skp4.metrics import p4_score
+from skp4 import p4_score
 y_true = ['versicolor', 'versicolor', 'setosa', 'setosa', 'virginica', 'virginica', 'setosa']
 y_pred = ['versicolor', 'setosa', 'setosa', 'virginica', 'setosa', 'virginica', 'setosa']
 p4_score(y_true, y_pred)
@@ -44,7 +44,7 @@ weighted avg: 0.6405
 ## Multilabel Case
 Example with multilabel classification.
 ```python
-from skp4.metrics import p4_score
+from skp4 import p4_score
 y_true = [['A', 'B'], ['A', 'C'], ['B'], ['A', 'B', 'C']]
 y_pred = [['A'], ['A', 'B'], [], ['A', 'B', 'C']]
 p4_score(y_true, y_pred)

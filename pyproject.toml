@@ -1,6 +1,6 @@
 [tool.poetry]
 name = "scikit-p4"
-version = "0.1.0"
+version = "0.1.1"
 description = "P4 metric calculation library compatible with scikit-learn"
 authors = ["Mikolaj Sitarz <sitarz@refaba.com>"]
 readme = "README.md"
